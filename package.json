@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "set \"GIT_USER=lox1co\" && docusaurus deploy",
+    "deploy": "set \"GIT_USER=lox1co\" && set \"DEPLOYMENT_BRANCH=gh-pages\" && docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
